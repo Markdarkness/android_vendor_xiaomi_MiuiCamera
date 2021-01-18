@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/etc/device_features/jasmine.xml:system/etc/device_features/jasmine_sprout.xml \
     $(VENDOR_PATH)/system/etc/default-permissions/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml \
     $(VENDOR_PATH)/system/etc/permissions/miuicamera-privapp-permissions.xml:system/etc/permissions/miuicamera-privapp-permissions.xml \
+    $(VENDOR_PATH)/system/etc/init/cameraserver.rc:system/etc/init/cameraserver.rc \
     $(VENDOR_PATH)/system/lib/libCameraEffectJNI.so:system/lib/libCameraEffectJNI.so \
     $(VENDOR_PATH)/system/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     $(VENDOR_PATH)/system/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
